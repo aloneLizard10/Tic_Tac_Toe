@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+    font-size: 72px;
+    cursor: pointer;
+  }
+  td:hover {
+    background-color: lightseagreen;
+  }
+  #message {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  #reset {
+    display: block;
+    margin: 20px auto;
+    font-size: 18px;
+  }
